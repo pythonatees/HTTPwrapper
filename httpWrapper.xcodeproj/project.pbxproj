@@ -13,6 +13,7 @@
 		1811B9AD2089C87100BC64BA /* httpWrapper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1811B9AB2089C87100BC64BA /* httpWrapper.xcdatamodeld */; };
 		1811B9AF2089C87300BC64BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1811B9AE2089C87300BC64BA /* Assets.xcassets */; };
 		1811B9B22089C87300BC64BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811B9B02089C87300BC64BA /* LaunchScreen.storyboard */; };
+		1811B9BA2089C99100BC64BA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811B9B92089C99100BC64BA /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1811B9AE2089C87300BC64BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1811B9B12089C87300BC64BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1811B9B32089C87300BC64BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811B9B92089C99100BC64BA /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1811B9A32089C87100BC64BA /* httpWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				1811B9B92089C99100BC64BA /* APIManager.swift */,
 				1811B9A42089C87100BC64BA /* AppDelegate.swift */,
 				1811B9A62089C87100BC64BA /* ViewController.swift */,
 				1811B9A82089C87100BC64BA /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1811B9BA2089C99100BC64BA /* APIManager.swift in Sources */,
 				1811B9A72089C87100BC64BA /* ViewController.swift in Sources */,
 				1811B9A52089C87100BC64BA /* AppDelegate.swift in Sources */,
 				1811B9AD2089C87100BC64BA /* httpWrapper.xcdatamodeld in Sources */,
